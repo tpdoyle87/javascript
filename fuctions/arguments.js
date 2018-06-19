@@ -18,7 +18,7 @@ console.log(scoreText);
 //challenge
 
 let getTip = function (total, tipPercent = .2) {
-    return `You should tip $${total * tipPercent}  for the great service!`;
+    return `To leave a ${tipPercent * 100}% tip on $${total} you should tip $${total * tipPercent} for the great service!`;
 }
 
 let tipAmount = getTip(50);
@@ -27,3 +27,7 @@ let tipAmount3 = getTip(72, .1);
 console.log(tipAmount);
 console.log(tipAmount2);
 console.log(tipAmount3);
+
+let age = 30
+let name = 'Thomas'
+console.log(`Hi I am ${name}, and i am ${age} years old.`);
