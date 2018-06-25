@@ -3,8 +3,8 @@
 // A (90-100) B (80-89) C (70-79) D (60-69) F <= 59
 // console.log to screen and get correct output
 
-let studentGrader = function (studentScore, totalPossible) {
-  let grade = Math.floor((studentScore / totalPossible) * 100);
+const studentGrader = function (studentScore, totalPossible) {
+  const grade = Math.floor((studentScore / totalPossible) * 100);
   let letterGrade;
 
   if (grade >= 90) {
@@ -22,5 +22,5 @@ let studentGrader = function (studentScore, totalPossible) {
 
 }
 
-let result = studentGrader(18, 20);
+const result = studentGrader(14, 20);
 console.log(result)
