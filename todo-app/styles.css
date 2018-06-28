@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  background-color: rgb(230, 230, 230)
+}
+
+
+h1 {
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+p {
+  text-align: center;
+  padding: 20px;
+  display: block;
+  width: 20%;
+}
