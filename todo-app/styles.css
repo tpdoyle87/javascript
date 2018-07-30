@@ -4,19 +4,44 @@
 
 body {
   width: 90%;
-  background-color: rgb(230, 230, 230)
+  background-color: rgb(230, 230, 230);
+  margin: auto
 }
 
+div {
+  width: 90%;
+}
 
 h1 {
   margin: auto;
   text-align: center;
   padding: 30px;
+  border-bottom: 2px black solid
+}
+
+h2 {
+  text-align: center;
+  width: auto;
 }
 
 p {
   text-align: center;
   padding: 20px;
   display: block;
-  width: 20%;
+  width: auto;
+}
+
+button {
+  margin: auto;
+  text-align: center;
+  width: auto
+}
+
+.wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper:last-of-type {
+  padding-top: 10px;
 }

@@ -6,15 +6,28 @@
     <title>ToDo</title>
   </head>
   <body>
+
     <h1>Todos</h1>
-    <div class="para">
-      <p>Clean the Kitchen 1</p>
-      <p>Book flights 2</p>
-      <p>look up hotels 3</p>
-      <p>walk the dog 4</p>
-      <p>finish this course 5</p>
+    <div class="wrapper" id="todo-list-header">
+<!-- this is where the todos header will be created from js file -->
     </div>
 
+    <div class="wrapper">
+    <form id="add-todo">
+      <input type="text" name="addTodo" placeholder="add todo">
+      <button>Submit</button>
+    </form>
+    </div>
+    <div class="wrapper">
+      <input type="text" id="search-todos" placeholder="Search Todos">
+      <label>
+        <input type="checkbox" id='checkbox'> Hide completed
+      </label>
+    </div>
+    <div class="wrapper" id="todo-list">
+<!-- this is where the todos created in js file go -->
+    </div>
   </body>
+  <script src='todo-functions.js'></script>
   <script src="todo.js"></script>
 </html>
